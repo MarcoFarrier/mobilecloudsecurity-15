@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\libs\com.fasterxml.jackson.annotations.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="adaa16df5f1ff56b40fb59362c83886f5413096c">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\com.fasterxml.jackson.annotations-0a97f1bacbc546d8f7069d373bd762a3eecb5fd5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\commons-io-2.4-29fab7cc3e07eb6670a358faa8743a74ff56e70c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-02b02890b30668a08e5d160e8d49111acc9b0f76.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\libs\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-fb8b6b1705c97969fec301f35d57e0cc089afe0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-48b3fddc592c31e6c96c7e92bf4d65adc4e51eb0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\gson-2.2.4-638c79bf213a34088434bb26d98121627c01c976.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\classes-146440e74a1681fe3bb68e8b915c023279684748.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\guava-18.0-15f50c27afdfe8bd5b1595887fdcb50f932d345b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\libs\okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\okhttp-2.4.0-61be44586a459f6804bb975dce4b7fae5096ac06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\libs\okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="C:\Users\Marco\SkyDrive\Documents\mobilecloudsecurity-15\assignments\VideoUploadClient(Secured)AndroidStudio\app\build\intermediates\pre-dexed\debug\okio-1.4.0-7e3ee1355d8f5dcbd0d5c169379e458c57c0a378.jar" />
+    </item>
+
+</items>
