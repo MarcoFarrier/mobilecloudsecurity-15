@@ -68,7 +68,11 @@ public class VideoController {
         {
             if(v.getOwner() != p.getName())
             {
-                responseServlet.setStatus(HttpServletResponse.SC_FORBIDDEN);
+                try {
+                    responseServlet.sendError(HttpServletResponse.SC_FORBIDDEN, "Video exists, you don't own it");
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 return null;
             }
         }
@@ -83,13 +87,21 @@ public class VideoController {
 
         if(!videoRepository.exists(id))
         {
-            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
+            try {
+                response.sendError(HttpServletResponse.SC_NOT_FOUND, "Video ID not found");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return null;
         }
 
         if(p.getName() != videoRepository.findOne(id).getOwner())
         {
-            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+            try {
+                response.sendError(HttpServletResponse.SC_FORBIDDEN, "You don't own this");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return null;
         }
 
@@ -111,13 +123,21 @@ public class VideoController {
     {
         if(!videoRepository.exists(videoID))
         {
-            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
+            try {
+                response.sendError(HttpServletResponse.SC_NOT_FOUND, "Video doesn't exist");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return;
         }
 
         if(!myManager.hasVideoData(videoRepository.findOne(videoID)))
         {
-            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
+            try {
+                response.sendError(HttpServletResponse.SC_NOT_FOUND, "No video data");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
             return;
         }
 

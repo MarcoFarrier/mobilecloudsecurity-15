@@ -28,6 +28,7 @@ import org.magnum.mobilecloud.video.model.VideoStatus.VideoState;
 import retrofit.RestAdapter.LogLevel;
 import retrofit.RetrofitError;
 import retrofit.client.ApacheClient;
+import retrofit.client.OkClient;
 import retrofit.client.Response;
 import retrofit.mime.TypedFile;
 
@@ -63,7 +64,7 @@ public class VideoSvcClientApiTest {
 			.setUsername(USERNAME)
 			.setPassword(PASSWORD)
 			.setClientId(CLIENT_ID)
-			.setClient(new ApacheClient(UnsafeHttpsClient.createUnsafeClient()))
+			.setClient(new OkClient(UnsafeHttpsClient.getUnsafeOkHttpClient()))
 			.setEndpoint(TEST_URL).setLogLevel(LogLevel.FULL).build()
 			.create(VideoSvcApi.class);
 
@@ -72,7 +73,7 @@ public class VideoSvcClientApiTest {
 			.setUsername(USERNAME2)
 			.setPassword(PASSWORD2)
 			.setClientId(CLIENT_ID)
-			.setClient(new ApacheClient(UnsafeHttpsClient.createUnsafeClient()))
+			.setClient(new OkClient(UnsafeHttpsClient.getUnsafeOkHttpClient()))
 			.setEndpoint(TEST_URL).setLogLevel(LogLevel.FULL).build()
 			.create(VideoSvcApi.class);
 
@@ -81,7 +82,7 @@ public class VideoSvcClientApiTest {
 			.setUsername(USERNAME)
 			.setPassword(PASSWORD)
 			.setClientId(READ_ONLY_CLIENT_ID)
-			.setClient(new ApacheClient(UnsafeHttpsClient.createUnsafeClient()))
+			.setClient(new OkClient(UnsafeHttpsClient.getUnsafeOkHttpClient()))
 			.setEndpoint(TEST_URL).setLogLevel(LogLevel.FULL).build()
 			.create(VideoSvcApi.class);
 
@@ -90,7 +91,7 @@ public class VideoSvcClientApiTest {
 			.setUsername(UUID.randomUUID().toString())
 			.setPassword(UUID.randomUUID().toString())
 			.setClientId(UUID.randomUUID().toString())
-			.setClient(new ApacheClient(UnsafeHttpsClient.createUnsafeClient()))
+			.setClient(new OkClient(UnsafeHttpsClient.getUnsafeOkHttpClient()))
 			.setEndpoint(TEST_URL).setLogLevel(LogLevel.FULL).build()
 			.create(VideoSvcApi.class);
 
